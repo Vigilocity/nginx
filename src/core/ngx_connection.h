@@ -89,6 +89,10 @@ struct ngx_listening_s {
     int                 fastopen;
 #endif
 
+#if (NGX_HAVE_TRANSPARENT && defined IP_TRANSPARENT)
+    unsigned            transparent:1;
+#endif
+
 };
 
 
