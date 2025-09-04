@@ -1,0 +1,2 @@
+Patch taken from here:
+https://trac.nginx.org/nginx/ticket/287
